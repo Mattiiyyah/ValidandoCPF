@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to right, #2c3e50, #34495e);
+    font-family: sans-serif;
+}
+
+.card-validador {
+    background-color: rgba(223, 223, 223, 0.9) !important; 
+    backdrop-filter: blur(10px); 
+    border: none; 
+}
+
+.card-validador h1 {
+    color: #343a40; 
+}
+
+.card-validador label {
+    color: #495057;
+    font-weight: 500;
+}
+
+[data-bs-theme="dark"] body {
+    background: #212529;
+}
+
+[data-bs-theme="dark"] .card-validador {
+    background-color: #343a40 !important;
+    border: 1px solid #495057;
+}
+
+[data-bs-theme="dark"] .card-validador h1,
+[data-bs-theme="dark"] .card-validador label {
+  color: #f8f9fa;
+}
